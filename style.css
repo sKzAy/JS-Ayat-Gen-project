@@ -1,0 +1,65 @@
+body{
+    background-color: black;
+    color: white;
+}
+.headbox{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.heading{
+    background-color: rgb(31, 27, 27);
+    color: white;
+    width: fit-content;
+    padding: 10px;
+    border: solid white;
+    border-radius: 15px;
+    margin-top: 170px;
+}
+.h1{
+    width: 20vw;
+    font-size: xx-large;
+}
+
+.box{
+    background-color: white;
+    color: black;
+    margin-top: 50px;
+    width: 30vw;
+    padding: 50px;
+    border: none;
+    border-radius: 20px;
+}
+.text{
+    font-size: larger;
+}
+.parent{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.person{
+    padding: 10px;
+    margin: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: red;
+    word-spacing: 3px;
+    letter-spacing: 5px;
+    font-size: x-large;
+}
+
+.btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.btn button{
+    padding: 12px;
+    border: none;
+    border-radius: 10px;
+    background-color: black;
+    color: white;
+    cursor: pointer;
+}
